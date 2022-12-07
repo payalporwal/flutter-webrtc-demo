@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
   _initData() async {
     _prefs = await SharedPreferences.getInstance();
     setState(() {
-      _server = _prefs.getString('server') ?? 'demo.cloudwebrtc.com';
+      _server = _prefs.getString('server') ?? 'server.paceful.org';
     });
   }
 

@@ -283,7 +283,7 @@ class Signaling {
   }
 
   Future<void> connect() async {
-    var url = 'https://$_host:$_port/ws';
+    var url = 'https://$_host:$_port/';
     _socket = SimpleWebSocket(url);
 
     print('connect to $url');

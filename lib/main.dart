@@ -127,13 +127,7 @@ class _MyAppState extends State<MyApp> {
             _datachannel = false;
             _showAddressDialog(context);
           }),
-      RouteItem(
-          title: 'Data Channel Sample',
-          subtitle: 'P2P Data Channel.',
-          push: (BuildContext context) {
-            _datachannel = true;
-            _showAddressDialog(context);
-          }),
+      
     ];
   }
 }
